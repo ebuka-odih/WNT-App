@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "WNT-APP",
+    "slug": "WNT-APP",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.odih.WNTAPP",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+       }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.odih.WNTAPP",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+       }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "hermes": {
+      "enabled": true,
+      "commandUnlink": "node node_modules/hermes-engine/unlink"
+    },
+    "UIBackgroundModes": [
+          "audio"
+        ]
+  }
+}
